@@ -82,7 +82,7 @@
             -->
             <groupId>io.openliberty.api</groupId>
             <artifactId>io.openliberty.transaction</artifactId>
-            <version>1.1.74</version>
+            <version>1.1.86</version>
             <scope>provided</scope>
             <optional>true</optional>
         </dependency>
@@ -130,7 +130,7 @@
                         <configuration>
                             <target>
                                 <java classname="org.apache.openjpa.util.ProxyManagerImpl" classpathref="maven.runtime.classpath">
-                                    <arg line="-utils 5" />
+                                    <arg line="-utils 5"/>
                                 </java>
                             </target>
                         </configuration>
